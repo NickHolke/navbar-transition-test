@@ -1,0 +1,37 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#home {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#about {
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  padding-right: 150px;
+  transition: background ease-in-out 200ms;
+}
+
+.show {
+  background: rgb(43, 42, 42);
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  color: white;
+  font-size: 28px;
+}
