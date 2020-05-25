@@ -1,4 +1,4 @@
-const aboutSection = document.querySelector("#about");
+const aboutSection = document.querySelector("#info");
 const navBar = document.querySelector("nav");
 
 const options = {
